@@ -1,0 +1,8 @@
+its a bitch to code http protocal in programs again and again
+but its better then using inets openurl just for that 1 thing,
+so w/ this all u have to do is add frmhttp to your project and type like:
+
+dim data as string
+data="http://www.somesite.com?someform=" & txtblah
+data=frmhttp.openurl(data)
+
